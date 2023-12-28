@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - your favorite music is here</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul >
+            <li class="brand"><img src="./Spotify_Logo_CMYK_Black.png" alt="img"></li>
+            <li class="font">Home</li>
+            <li class="font">Artists</li>
+            <li class="font">Playlists</li>
+            <li class="font">Your library</li>
+            <li class="font">Podcasts</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>My favorites</h1>
+        <div class="songbanner"><img src="./matthew-moloney-cJL2LuBTu0A-unsplash.jpg" alt="">
+        </div>
+        <div class="songlist">
+            <div class="single">
+                <img src="./img1.png" alt="cover">
+            <span>Slow dancing by V</span>
+            <span class="timespan">5:30
+                <i id="1" class="fa-regular songitemplay fa-circle-play"></i>
+            </span>
+        </div>
+            <div class="single">
+                <img src="./img2.jpg" alt="cover">
+            <span>Euphoria by Jungkook</span>
+            <span class="timespan">5:30
+                <i id="2" class="fa-regular songitemplay fa-circle-play"></i>
+            </span>
+        </div>
+            <div class="single">
+                <img src="./img3.webp" alt="cover">
+            <span>Life goes on by BTS</span>
+            <span class="timespan">5:30
+                <i id="3" class="fa-regular songitemplay fa-circle-play"></i>
+            </span>
+        </div>
+            <div class="single">
+                <img src="./img4.jpg" alt="cover">
+            <span>Like crazy by Jimin</span>
+            <span class="timespan">5:30
+                <i id="4"  class="fa-regular songitemplay fa-circle-play"></i>
+            </span>
+        </div>
+            <div class="single">
+                <img src="./img4.jpg" alt="cover">
+            <span>Euphoria by Jungkook</span>
+            <span class="timespan">5:30
+                <i id="5" class="fa-regular fa-circle-play"></i>
+            </span>
+        </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" value="0" min="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-solid fa-3x fa-backward-fast", id="previous"></i>
+            <i class="fa-regular fa-3x fa-circle-play", id="masterPlay"></i>
+            <i class="fa-solid  fa-3x fa-forward-fast", id="next"></i>   
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/9d5bdcd913.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
